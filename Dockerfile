@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.0.2.20080827232412
+ENV VERSION=1.0.2.20080828210656
 
 RUN gem install aaronp-zomg --version ${VERSION} --no-format-exec
 
